@@ -47,7 +47,13 @@ import { randomUUID } from "node:crypto";
 import { serveStatic } from "@hono/node-server/serve-static";
 
 const app = new Hono<{ Variables: Variables }>();
-app.use("/api/*", cors({ origin: "http://localhost:5173", credentials: true }));
+app.use(
+  "/api/*",
+  cors({
+    origin: ["http://localhost:5173", "http://localhost:4173"],
+    credentials: true,
+  }),
+);
 
 app.get("/", (c) => {
   return c.text("Hello Hono!");
