@@ -1,0 +1,17 @@
+{
+  "name": "math-me-whole",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently -k -n frontend,backend -c cyan,magenta \"npm --prefix match-me-actual run dev\" \"npm --prefix match-me-backend run dev\"",
+    "build": "npm --prefix match-me-actual run build && npm --prefix match-me-backend run build",
+    "start": "concurrently -k -n frontend,backend -c cyan,magenta \"npm --prefix match-me-actual run start\" \"npm --prefix match-me-backend run start\"",
+    "install:all": "npm --prefix match-me-actual install && npm --prefix match-me-backend install"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "dependencies": {
+    "concurrently": "^10.0.7"
+  }
+}

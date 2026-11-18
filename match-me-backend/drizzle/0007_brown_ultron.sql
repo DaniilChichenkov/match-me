@@ -1,0 +1,1 @@
+ALTER TABLE "user_bio" ADD COLUMN "location" varchar(255) NOT NULL;

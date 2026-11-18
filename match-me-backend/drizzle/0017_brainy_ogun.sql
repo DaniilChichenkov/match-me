@@ -1,0 +1,2 @@
+ALTER TABLE "connections" ADD COLUMN "last_message_time" timestamp;--> statement-breakpoint
+CREATE INDEX "message_notifications_recipient_connection_idx" ON "messages_notifications" USING btree ("recipientId","connection_id");

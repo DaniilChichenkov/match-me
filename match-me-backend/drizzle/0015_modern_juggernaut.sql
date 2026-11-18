@@ -1,0 +1,2 @@
+ALTER TABLE "messages_notifications" ADD COLUMN "connection_id" uuid NOT NULL;--> statement-breakpoint
+ALTER TABLE "messages_notifications" ADD CONSTRAINT "messages_notifications_connection_id_connections_id_fk" FOREIGN KEY ("connection_id") REFERENCES "public"."connections"("id") ON DELETE cascade ON UPDATE no action;

@@ -1,0 +1,1 @@
+ALTER TABLE "users_about_self" ADD COLUMN "avatar" varchar(255);

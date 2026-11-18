@@ -1,0 +1,132 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1793440449938,
+      "tag": "0000_furry_shotgun",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1793486275309,
+      "tag": "0001_misty_james_howlett",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1793535770491,
+      "tag": "0002_hesitant_beyonder",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1793602181687,
+      "tag": "0003_smooth_namorita",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1793602427718,
+      "tag": "0004_dapper_felicia_hardy",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1793658196126,
+      "tag": "0005_curious_runaways",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1793811858896,
+      "tag": "0006_charming_justice",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1793816324058,
+      "tag": "0007_brown_ultron",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1794287445010,
+      "tag": "0008_stiff_ultimates",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1794366546613,
+      "tag": "0009_sparkling_clea",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1794369213601,
+      "tag": "0010_wealthy_leopardon",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1794369943976,
+      "tag": "0011_amused_johnny_blaze",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "7",
+      "when": 1794370017137,
+      "tag": "0012_cold_colleen_wing",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "7",
+      "when": 1794686013960,
+      "tag": "0013_windy_banshee",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "7",
+      "when": 1794960264494,
+      "tag": "0014_futuristic_bulldozer",
+      "breakpoints": true
+    },
+    {
+      "idx": 15,
+      "version": "7",
+      "when": 1794962555034,
+      "tag": "0015_modern_juggernaut",
+      "breakpoints": true
+    },
+    {
+      "idx": 16,
+      "version": "7",
+      "when": 1794974148242,
+      "tag": "0016_nosy_sister_grimm",
+      "breakpoints": true
+    },
+    {
+      "idx": 17,
+      "version": "7",
+      "when": 1794982153171,
+      "tag": "0017_brainy_ogun",
+      "breakpoints": true
+    }
+  ]
+}
